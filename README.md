@@ -111,7 +111,7 @@ cmpd3,CC(=O)OC1=CC=CC=C1C(=O)O
 
 ---
 
-## 🆘 Help and Support
+##  Help and Support
 
 For help with commands:
 
