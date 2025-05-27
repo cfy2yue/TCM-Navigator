@@ -52,8 +52,13 @@ Generate molecules based on traditional molecular patterns.
 Generate molecules with activity toward specific biological targets (e.g., DRD1, EGFR, Mpro, SIRT1).
 
 ```bash
-./Generator generate2 -c Generate2/EGFR.pt -n 200 -o EGFR_output.smi
+./Generator generate2 -c Generate2/EGFR.pt -n 200 -o EGFR_output.smi  
+
+./Generator generate2 -c Generate2/mpro.pt -n 200 -o Mpro_output.smi  
+
+./Generator generate2 -c Generate2/SIRT1.pt -n 200 -o SIRT1_output.smi
 ```
+
 
 | Option                   | Description                     |
 | ------------------------ | ------------------------------- |
