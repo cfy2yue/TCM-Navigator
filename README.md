@@ -83,7 +83,7 @@ Evaluate a generated SMILES file for validity, diversity, drug-likeness, ADMET p
 
 ---
 
-# TCM-Identifier: Molecule Evaluation Tool
+# TCM-Identifier: TCM-likeness Evaluation Tool
 
 A command-line utility to score TCM-relevant compounds using a pre-trained AttentiveFP model. Designed for **high-throughput screening**.
 
