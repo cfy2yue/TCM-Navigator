@@ -1,23 +1,27 @@
 
+
 ---
 
 # TCM-Navigator: Command-Line Toolkit for Molecular Generation and Evaluation
 
 `TCM-Navigator` is a two-component command-line toolkit designed to streamline **molecular generation** and **property evaluation**, particularly for traditional Chinese medicine (TCM)-related ligands and target-specific drug discovery.
 
-##  Toolkit Overview
+👉 Download TCM-Navigator toolkit from **[Zenodo](https://zenodo.org/uploads/15518561)**
 
-| Component           | Purpose                                          |
-| ------------------- | ------------------------------------------------ |
-| 🔬 `TCM-Generator`  | Generate molecules (TCM-like/Target-specific) |
-| 📊 `TCM-Identifier` | Evaluate molecules using a TCM-score predictor   |
+## Toolkit Overview
+
+| Component           | Purpose                                        |
+| ------------------- | ---------------------------------------------- |
+| 🔬 `TCM-Generator`  | Generate molecules (TCM-like/Target-specific)  |
+| 📊 `TCM-Identifier` | Evaluate molecules using a TCM-score predictor |
 
 ---
 
-
 # TCM-Generator: Molecule Generation Tool
 
-A flexible CLI for generating molecules using chemical language models. It supports **TCM-like molecules genaration/Target specific molecules genaration** .
+A flexible CLI for generating molecules using chemical language models. It supports **TCM-like molecules generation / Target-specific molecules generation**.
+
+📦 Download `TCM-Generator` from **[Zenodo](https://zenodo.org/uploads/15518561)**
 
 ### ⚙️ Usage
 
@@ -61,7 +65,7 @@ Generate molecules with activity toward specific biological targets (e.g., DRD1,
 
 #### 3. `eval`: Evaluate Molecule Properties
 
-Evaluate a generated SMILES file for validity, diversity, drug-likeness, ADMET properties,etc.
+Evaluate a generated SMILES file for validity, diversity, drug-likeness, ADMET properties, etc.
 
 ```bash
 ./Generator eval -i output1.smi -o evaluation_results.csv
@@ -77,6 +81,8 @@ Evaluate a generated SMILES file for validity, diversity, drug-likeness, ADMET p
 # TCM-Identifier: Molecule Evaluation Tool
 
 A command-line utility to score TCM-relevant compounds using a pre-trained AttentiveFP model. Designed for **high-throughput screening**.
+
+📦 Download `TCM-Identifier` from **[Zenodo](https://zenodo.org/uploads/15518561)**
 
 ### ⚙️ Usage
 
@@ -108,10 +114,7 @@ cmpd3,CC(=O)OC1=CC=CC=C1C(=O)O
 
 ---
 
-
----
-
-##  Help and Support
+## Help and Support
 
 For help with commands:
 
@@ -120,6 +123,6 @@ For help with commands:
 ./Identifier --help
 ```
 
-For technical issues, contact: [cfy2yue@sjtu.edu.cn]
+For technical issues, contact: \[[cfy2yue@sjtu.edu.cn](mailto:cfy2yue@sjtu.edu.cn)]
 
-
+---
