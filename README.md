@@ -8,6 +8,8 @@
 
 👉 Download TCM-Navigator toolkit from **[Zenodo](https://zenodo.org/uploads/15518561)**
 
+**Both `TCM-Generator` and `TCM-Identifier` are packaged using PyInstaller, which allows you to run the executables directly without the need for installing Python or managing dependencies and environment configurations, ensuring ease of use and compatibility across systems.**
+
 ## Toolkit Overview
 
 | Component           | Purpose                                        |
@@ -58,7 +60,6 @@ Generate molecules with activity toward specific biological targets (e.g., DRD1,
 
 ./Generator generate2 -c Generate2/SIRT1.pt -n 200 -o SIRT1_output.smi
 ```
-
 
 | Option                   | Description                     |
 | ------------------------ | ------------------------------- |
@@ -131,3 +132,5 @@ For help with commands:
 For technical issues, contact: \[[cfy2yue@sjtu.edu.cn](mailto:cfy2yue@sjtu.edu.cn)]
 
 ---
+
+
